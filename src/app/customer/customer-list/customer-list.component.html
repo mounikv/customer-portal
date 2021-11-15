@@ -1,9 +1,8 @@
-<customer-header></customer-header>
-<div class="search-customer-container">
+<section class="search-customer-container">
     <img src="../../../assets/search.svg" alt="search" class="search-img"/>
     <input type="text" class="search-customer" id="inputValidation" placeholder="Search for a Customer" />
-</div>
-<div class="customer-container">
+</section>
+<section class="customer-container">
     <div *ngFor="let customer of customers; let i = index" class="customer-card">
         <div class="create-customer" *ngIf="i==0">
             <img src="../../../assets/add.svg" />
@@ -11,5 +10,4 @@
         </div>
         <customer-card [customer]=customer *ngIf="i>0"></customer-card>
     </div>
-</div>
-<customer-footer></customer-footer>
+</section>
