@@ -1,5 +1,4 @@
 <div class="card" [ngStyle]="{'border-top': '5px solid' + customer.color}">
-    <div>
         <div class="header-section">
             <img [src]="customer.logo" alt="Avatar" style="width:35px;height: 35px;">
             <div class="header">
@@ -7,7 +6,6 @@
                 <label style="color: darkgrey;">{{customer.name}}</label>
             </div>
         </div>
-        <div class="customer-details">{{customer.address}}</div>
-        <div class="customer-details">{{customer.email}}</div>
-    </div>
+        <label class="customer-details">{{customer.address}}</label>
+        <label class="customer-details">{{customer.email}}</label>
 </div>
