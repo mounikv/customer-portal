@@ -12,8 +12,15 @@
         display: flex;
         align-items: center;
         margin: 2% 0%;
+        .customerLogo {
+            width: $px10 * 3 + $px5 + px;
+            height: $px10 * 3 + $px5 + px;
+        }
         .header {
             margin: 5%;
+            .customerName{
+                color: darkgrey;
+            }
             h4 {
                 margin: 0%;
             }

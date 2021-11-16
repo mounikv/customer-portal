@@ -5,16 +5,16 @@
     flex-wrap: wrap;
     .customer-card {
         margin: $px5*3 + px;
-        width: $px100*3 +px;
+        width: $px100*3 + px;
         .create-customer {
             display: flex;
             justify-content: center;
             align-items: center;
-            border: $px1*2+px dashed #c5c5c5;
+            border: $px1*2 + px dashed #c5c5c5;
             font-weight: bold;
-            border-radius: $px5+px;
+            border-radius: $px5 + px;
             height: 100%;
-            padding-bottom: $px10+px;
+            padding-bottom: $px10 + px;
         }
     }
 }
@@ -29,10 +29,10 @@
     .search-customer {
         display: block;
         width: 30%;
-        padding: 6px $px10*3+px;
+        padding: 6px $px10*3 + px;
         line-height: 1.5;
-        border: $px1+px solid #ccc;
-        border-radius: $px1*4+px;
+        border: $px1 + px solid #ccc;
+        border-radius: $px1*4 + px;
     }
 }
 
